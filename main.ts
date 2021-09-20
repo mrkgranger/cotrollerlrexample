@@ -1,5 +1,5 @@
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-	
+    mySprite.x += -3
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.x += 3
